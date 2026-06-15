@@ -1,0 +1,76 @@
+# AI-PM Strategy Brief
+
+## Project Name
+
+AI-Augmented Project Management RAG Assistant
+
+## Business Problem
+
+Project Managers often spend too much time manually reviewing sprint updates, QA defects, blockers, meeting notes, and risk logs. Important delivery risks can be missed when information is scattered across different sources.
+
+## Selected Operational Bottleneck
+
+The selected bottleneck is the manual process of identifying recurring blockers, QA-related delivery risks, and historical issue patterns from project notes and defect reports.
+
+## Proposed Solution
+
+Build a RAG-based AI Project Management Assistant that can retrieve relevant project knowledge and generate grounded PM outputs such as:
+
+1. Weekly status reports
+2. Risk summaries
+3. Blocker analysis
+4. RAID log suggestions
+5. QA readiness reviews
+6. Historical issue references
+
+## Target Data Sources
+
+The prototype will use sample or synthetic versions of:
+
+1. Sprint notes
+2. QA defect reports
+3. Risk logs
+4. Meeting summaries
+5. Decision logs
+6. Stakeholder updates
+
+## Technical Direction
+
+The prototype will explore:
+
+1. Structured JSON outputs
+2. PostgreSQL
+3. pgvector
+4. Text chunking
+5. Embeddings
+6. Semantic search
+7. Hybrid search
+8. Grounded LLM responses
+9. Human-in-the-loop review
+
+## Governance Rules
+
+1. No confidential company data will be used during the prototype stage.
+2. AI outputs must be reviewed by a human before being treated as final.
+3. The assistant must show the source or basis of its answer when possible.
+4. The system should identify missing information instead of inventing answers.
+5. The prototype will not automatically update Jira, Azure Boards, email, or production systems.
+
+## Day 30 Expected Output
+
+By Day 30, the project should have:
+
+1. A working or demo-ready RAG workflow
+2. Sample project knowledge base
+3. Retrieval demo
+4. Grounded PM report output
+5. RAID extraction output
+6. QA readiness output
+7. Evaluation scorecard
+8. Pilot proposal for company use
+
+## Resume Value
+
+This project will support the following career positioning:
+
+Technical Project Manager specializing in AI-assisted software delivery, RAG-based project knowledge systems, QA-informed risk management, and human-in-the-loop project governance.

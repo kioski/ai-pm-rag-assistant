@@ -1,0 +1,42 @@
+# Sample QA Defects
+
+## Defect 1
+Description: Users are able to modify holiday details through the sidebar interface, but the same functionality is unavailable when interacting directly with the holiday entries on the calendar view. The user expects to be able to click or interact with a holiday on the calendar to trigger a modification or edit action, maintaining consistency across both viewing modes.
+
+Description Details: 
+
+• OS and Browser: Windows 11 Pro and All Browser 
+
+• Environment: Stage
+
+Steps to Reproduce:
+
+Log in to the application as an Admin on the Stage environment.
+
+Navigate to the Admin > Holidays section.
+
+Locate a holiday in the list/sidebar and observe that it can be modified.
+
+Locate the Calendar view within the same section.
+
+Attempt to click, double-click, or select a holiday entry directly on the calendar.
+
+Observe that no modification options appear and the holiday remains uneditable through this specific interface element.
+
+## Defect 2
+
+Bug Description: On the Employees and Payrolls page, changing the “Results per page” value in the pagination control does not update the number of records displayed. The page continues to show the same number of results regardless of the selected option.
+
+OS and Browser: Windows 10 Pro and all browsers 
+Environment: Stage
+
+Steps to Reproduce:
+
+Navigate to the Employees and Payrolls page
+Locate the pagination controls at the bottom of the page
+Change the “Results per page” value to a different option
+Observe the list of records displayed
+See image for reference:
+Image
+
+Image
